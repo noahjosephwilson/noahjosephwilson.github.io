@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noah Wilson - Engineering Portfolio</title>
+    <title>Noah Wilson - Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -22,14 +22,13 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-text">
-                <h2>Hello, I'm <span class="highlight">Noah Wilson</span></h2>
-                <p>Aspiring Engineer | Innovator | Problem-Solver</p>
-                <a href="#about" class="btn">Learn More</a>
-            </div>
+    <!-- Introduction Section -->
+    <section class="intro full-screen">
+        <div class="container intro-content">
+            <img src="assets/images/noah-headshot.jpg" alt="Noah Wilson" class="headshot">
+            <h2>Hello, I'm <span class="highlight">Noah Wilson</span></h2>
+            <p class="tagline">Aspiring Engineer | Innovator | Problem-Solver</p>
+            <a href="#about" class="btn">Learn More</a>
         </div>
     </section>
 
@@ -38,57 +37,55 @@
         <div class="container">
             <h2>About Me</h2>
             <p>
-                I am Noah Wilson, an aspiring engineer with a passion for tackling complex challenges and creating innovative solutions. 
-                With expertise in [Your Field, e.g., Electrical and Computer Engineering], I am driven to explore new frontiers in technology and engineering.
+                I am Noah Wilson, an aspiring engineer passionate about tackling complex challenges and creating meaningful solutions. 
+                My background in Electrical and Computer Engineering has provided me with a solid foundation in problem-solving and innovation.
             </p>
             <p>
-                My journey includes rigorous academic training at Cornell University, hands-on experience with [mention key projects or tools], 
-                and a commitment to lifelong learning.
+                Beyond academics, I am always exploring new technologies and expanding my knowledge in fields like AI, IoT, and renewable energy systems.
             </p>
-            <img src="assets/images/noah-profile.jpg" alt="Noah Wilson" class="profile-img">
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section full-screen">
+    <section id="projects" class="section">
         <div class="container">
             <h2>Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
                     <img src="assets/images/project1.jpg" alt="Project 1">
-                    <h3>Project Title 1</h3>
-                    <p>Brief description of the project and your contributions.</p>
+                    <h3>Project 1</h3>
+                    <p>A brief description of the project and its goals.</p>
                 </div>
                 <div class="project-card">
                     <img src="assets/images/project2.jpg" alt="Project 2">
-                    <h3>Project Title 2</h3>
-                    <p>Brief description of the project and your contributions.</p>
+                    <h3>Project 2</h3>
+                    <p>A brief description of the project and its goals.</p>
                 </div>
                 <div class="project-card">
                     <img src="assets/images/project3.jpg" alt="Project 3">
-                    <h3>Project Title 3</h3>
-                    <p>Brief description of the project and your contributions.</p>
+                    <h3>Project 3</h3>
+                    <p>A brief description of the project and its goals.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Extracurriculars Section -->
-    <section id="extracurriculars" class="section full-screen">
+    <section id="extracurriculars" class="section">
         <div class="container">
             <h2>Extracurriculars</h2>
             <div class="extracurricular-grid">
                 <div class="extracurricular-card">
                     <h3>Phi Sigma Kappa</h3>
-                    <p>Active member, contributing to fraternity events and leadership roles.</p>
+                    <p>Active member contributing to fraternity events and leadership roles.</p>
                 </div>
                 <div class="extracurricular-card">
                     <h3>Robotics Club</h3>
-                    <p>Participated in building autonomous robots for intercollegiate competitions.</p>
+                    <p>Built autonomous robots for competitions and mentored new members.</p>
                 </div>
                 <div class="extracurricular-card">
-                    <h3>Volunteer Mentor</h3>
-                    <p>Guided high school students in STEM projects to inspire future engineers.</p>
+                    <h3>STEM Volunteer</h3>
+                    <p>Guided high school students in STEM projects, inspiring future engineers.</p>
                 </div>
             </div>
         </div>
@@ -97,13 +94,20 @@
     <!-- Contact Section -->
     <section id="contact" class="section full-screen">
         <div class="container">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to reach out through the following:</p>
-            <ul class="contact-info">
-                <li>Email: <a href="mailto:noah.wilson@example.com">noah.wilson@example.com</a></li>
-                <li>LinkedIn: <a href="#">linkedin.com/in/noahwilson</a></li>
-                <li>GitHub: <a href="#">github.com/noahwilson</a></li>
-            </ul>
+            <h2>Contact Me</h2>
+            <p>Feel free to get in touch!</p>
+            <form class="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
         </div>
     </section>
 
