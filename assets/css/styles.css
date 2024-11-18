@@ -1,0 +1,131 @@
+/* General Reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('../images/hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.section:nth-child(even) {
+    background: #fff;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Projects Grid */
+.project-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    margin-top: 15px;
+}
+
+/* Contact Section */
+.contact-info {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    font-size: 0.9em;
+}
