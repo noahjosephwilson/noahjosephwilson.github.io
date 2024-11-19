@@ -6,11 +6,12 @@
     <title>Noah Wilson - Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
-    <!-- Navigation Bar -->
+<body id="top">
     <header class="navbar">
         <div class="container">
-            <h1 class="logo">Noah Wilson</h1>
+            <h1 class="logo">
+                <a href="#top">Noah <span class="highlight">Wilson</span></a>
+            </h1>
             <nav>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
@@ -22,98 +23,125 @@
         </div>
     </header>
 
-    <!-- Introduction Section -->
-    <section class="intro full-screen">
+    <section class="intro">
         <div class="container intro-content">
-            <img src="assets/images/noah-headshot.jpg" alt="Noah Wilson" class="headshot">
-            <h2>Hello, I'm <span class="highlight">Noah Wilson</span></h2>
+            <img src="assets/images/IMG_5964.jpg" alt="Noah Wilson" class="headshot">
+            <h2>Hi, I'm <span class="highlight">Noah Wilson</span></h2>
             <p class="tagline">Aspiring Engineer | Innovator | Problem-Solver</p>
-            <a href="#about" class="btn">Learn More</a>
+            <div class="intro-buttons">
+                <a href="assets/images/resume.pdf" target="_blank" class="btn resume-btn">Resume</a>
+            </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section full-screen">
+    <section id="about" class="section about-section">
         <div class="container">
             <h2>About Me</h2>
-            <p>
-                I am Noah Wilson, an aspiring engineer passionate about tackling complex challenges and creating meaningful solutions. 
-                My background in Electrical and Computer Engineering has provided me with a solid foundation in problem-solving and innovation.
-            </p>
-            <p>
-                Beyond academics, I am always exploring new technologies and expanding my knowledge in fields like AI, IoT, and renewable energy systems.
-            </p>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am Noah Wilson, an engineering student passionate about tackling complex challenges and creating meaningful solutions. My background in Electrical and Computer Engineering has provided me with a solid foundation in physics, computer science, and general problem solving.
+                    </p>
+                    <p>
+                        Beyond academics, I am interested in learning about cutting edge technology and promoting community through a variety of extracurricular activities.
+                    </p>
+                    <p>
+                        I intend to pivot from my technical engineering background to the field of technology law.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/headshot.jpeg" alt="About Me" class="about-img">
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
+    <section id="Projects" class="section projects-section">
         <div class="container">
-            <h2>Projects</h2>
+            <h2>Experiences</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <img src="assets/images/project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>A brief description of the project and its goals.</p>
+                    <img src="assets/images/IMG_3388.jpg" alt="Project 1" class="project-img">
+                    <div class="project-content">
+                        <h3>Cornell High Energy Synchotron Source</h3>
+                        <p>Created Rienforcement Learning Algorithms for Positron Beam Orbit Correction</p>
+                        <a href="https://www.chess.cornell.edu" class="btn">Learn More</a>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <img src="assets/images/project2.jpg" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>A brief description of the project and its goals.</p>
+                    <img src="assets/images/nsls.jpg" alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3>Brookhaven National Laboratory</h3>
+                        <p>Designed Supervised Machine Learning Programs at the National Synchotron Light Source-II</p>
+                        <a href="https://www.bnl.gov/nsls2/" class="btn">Learn More</a>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <img src="assets/images/project3.jpg" alt="Project 3">
-                    <h3>Project 3</h3>
-                    <p>A brief description of the project and its goals.</p>
+                    <img src="assets/images/IMG_3742.jpg" alt="Project 3" class="project-img">
+                    <div class="project-content">
+                        <h3>Cornell Plasma Physics Laboratory</h3>
+                        <p>Analyzed and Co-Authored a Publication on Light Turbulance Through a Plasma</p>
+                        <a href="https://www.lps.cornell.edu" class="btn">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Extracurriculars Section -->
-    <section id="extracurriculars" class="section">
+    <section id="extracurriculars" class="section extracurriculars-section">
         <div class="container">
             <h2>Extracurriculars</h2>
-            <div class="extracurricular-grid">
-                <div class="extracurricular-card">
-                    <h3>Phi Sigma Kappa</h3>
-                    <p>Active member contributing to fraternity events and leadership roles.</p>
+            <div class="extracurricular-list">
+                <div class="extracurricular-item">
+                    <img src="assets/images/kick.png" alt="Sprint Football" class="extracurricular-img">
+                    <div class="extracurricular-content">
+                        <h3>Sprint Football</h3>
+                        <p>Varsity Student-Athlete Punter and Kicker</p>
+                        <a href="https://cornellbigred.com/sports/sprint-football" class="btn">Learn More</a>
+                    </div>
                 </div>
-                <div class="extracurricular-card">
-                    <h3>Robotics Club</h3>
-                    <p>Built autonomous robots for competitions and mentored new members.</p>
+                <div class="extracurricular-item">
+                    <img src="assets/images/safc.png" alt="Student Activities Funding Commission" class="extracurricular-img">
+                    <div class="extracurricular-content">
+                        <h3>Student Activities Funding Commission</h3>
+                        <p>Organized Recruitment and Funding for 100+ Cornell University Organizations</p>
+                        <a href="https://cornell.campusgroups.com/safc/home/" class="btn">Learn More</a>
+                    </div>
                 </div>
-                <div class="extracurricular-card">
-                    <h3>STEM Volunteer</h3>
-                    <p>Guided high school students in STEM projects, inspiring future engineers.</p>
+                <div class="extracurricular-item">
+                    <img src="assets/images/cft.png" alt="CFT" class="extracurricular-img">
+                    <div class="extracurricular-content">
+                        <h3>Cornell FinTech Club</h3>
+                        <p>Designed Machine Learning Programs for Oil Pricing Markets</p>
+                        <a href="https://www.cornellfintechclub.com" class="btn">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section full-screen">
+    <section id="contact" class="section contact-section">
         <div class="container">
             <h2>Contact Me</h2>
-            <p>Feel free to get in touch!</p>
-            <form class="contact-form">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                
-                <button type="submit">Send Message</button>
-            </form>
+            <p class="contact-description">Feel free to reach out directly or connect with me on the platforms below!</p>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> +1 (631) 921-2165</p>
+                <p><strong>Email:</strong> njw66@cornell.edu</p>
+            </div>
+            <div class="social-media-links">
+                <a href="https://www.linkedin.com/in/noahwilson3/" target="_blank" class="social-link">
+                    <img src="assets/images/linkedin.png" alt="LinkedIn" class="social-icon"> LinkedIn
+                </a>
+                <a href="https://github.com/noahjosephwilson" target="_blank" class="social-link">
+                    <img src="assets/images/github.jpeg" alt="GitHub" class="social-icon"> GitHub
+                </a>
+                <a href="https://instagram.com/yourhandle" target="_blank" class="social-link">
+                    <img src="assets/images/instagram.png" alt="Instagram" class="social-icon"> Instagram
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2024 Noah Wilson. All rights reserved.</p>
-    </footer>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
